@@ -1,3 +1,7 @@
 # system
 .DS_Store
 .Trashes
+
+# composer
+composer.phar
+composer.lock

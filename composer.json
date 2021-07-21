@@ -1,0 +1,14 @@
+{
+	"name": "shineunited/kinsta-mu-plugins",
+	"type": "wordpress-muplugin",
+	"keywords": [
+		"kinsta",
+		"composer",
+		"packagist",
+		"bedrock",
+		"wordpress"
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
