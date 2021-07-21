@@ -1,0 +1,42 @@
+name: Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0,4,8,12,16,20 * * *'
+
+jobs:
+  download-kinsta:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Download Kinsta
+        id: kinsta
+        run: |
+          rm -rf kinsta-mu-plugins*
+          wget https://kinsta.com/kinsta-tools/kinsta-mu-plugins.zip
+          unzip -o kinsta-mu-plugins.zip
+          rm kinsta-mu-plugins.zip
+          VERSION=$(sed -n -e 's/^ [*] Version: //p' kinsta-mu-plugins.php)
+          echo "::set-output name=version::$VERSION"
+      - name: Change Log
+        id: status
+        run: |
+          git add -A
+          STATUS=$(git status --porcelain)
+          CLEAN=$(if [ -z "$STATUS" ]; then echo 1; else echo 0; fi)
+          echo "## $(date) ##" > CHANGELOG
+          echo "" >> CHANGELOG
+          echo "$STATUS" >> CHANGELOG
+          git add CHANGELOG
+          echo "::set-output name=clean::$CLEAN"
+      - name: Commit Changes
+        if: steps.status.outputs.clean == 0
+        run: |
+          git config --global user.name "Kinsta"
+          git config --global user.email "contact@kinsta.com"
+          git commit -m "Update to v${{ steps.kinsta.outputs.version }}"
+          git push
+          git tag -f "${{ steps.kinsta.outputs.version }}"
+          git push -f --tags
+        
