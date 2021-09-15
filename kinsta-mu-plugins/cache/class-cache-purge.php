@@ -308,7 +308,7 @@ class Cache_Purge {
 				$purge_list['immediate']['single'][ 'blog_page_' . $i ] = $this->posts_page_url . '/page/' . $i . '/';
 			}
 
-			$purge_list['throttled']['group']['blog_page'] = $purge_list['single']['home_page'] . '/page/';
+			$purge_list['throttled']['group']['blog_page'] = $purge_list['immediate']['single']['home_page'] . '/page/';
 		} else {
 			$purge_list['immediate']['single']['home_blog_page'] = home_url() . '/';
 			for ( $i = 2; $i <= $this->immediate_depth; $i++ ) {

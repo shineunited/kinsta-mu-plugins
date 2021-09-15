@@ -141,11 +141,11 @@ class Shared {
 	 * @param  string  $name        The option name (key).
 	 * @param  string  $value       The $name value.
 	 * @param  string  $label       The control lable.
-	 * @param  boolean $info        Whether to show the tooltip.
 	 * @param  boolean $options     Options to show in the select field.
+	 * @param  boolean $info        Whether to show the tooltip.
 	 * @return void
 	 */
-	public static function kinsta_select_field( $option_name, $name, $value, $label, $info = false, $options ) {
+	public static function kinsta_select_field( $option_name, $name, $value, $label, $options, $info = false ) {
 		?>
 		<div class='kinsta-select-field kinsta-control-container' data-option-name="<?php echo esc_attr( $option_name ); ?>">
 			<label>
