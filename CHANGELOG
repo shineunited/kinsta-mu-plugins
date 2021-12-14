@@ -1,8 +1,9 @@
-## Wed Sep 15 20:06:52 UTC 2021 ##
+## Tue Dec 14 23:05:44 UTC 2021 ##
 
 M  kinsta-mu-plugins.php
-M  kinsta-mu-plugins/cache/class-cache-purge.php
-M  kinsta-mu-plugins/cache/pages/partials/settings-form.php
-M  kinsta-mu-plugins/shared/class-shared.php
-M  kinsta-mu-plugins/shared/scripts/tooltipster.bundle.min.js
+M  kinsta-mu-plugins/cache/class-cache-admin.php
+M  kinsta-mu-plugins/cache/class-cache.php
+M  kinsta-mu-plugins/compat/class-banned-plugins.php
+M  kinsta-mu-plugins/shared/images/icon-support.svg
+M  kinsta-mu-plugins/shared/images/logo-dark.svg
 M  kinsta-mu-plugins/shared/styles/tooltipster.bundle.css
