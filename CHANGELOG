@@ -1,6 +1,7 @@
-## Wed Feb  2 20:09:49 UTC 2022 ##
+## Mon Feb  7 20:07:42 UTC 2022 ##
 
 M  kinsta-mu-plugins.php
-M  kinsta-mu-plugins/cache/cache.php
-M  kinsta-mu-plugins/cache/class-cache-admin.php
-M  kinsta-mu-plugins/cache/class-cache.php
+D  kinsta-mu-plugins/cdn/cdn.php
+D  kinsta-mu-plugins/cdn/class-cdn-enabler.php
+D  kinsta-mu-plugins/cdn/class-cdn-rewriter.php
+D  kinsta-mu-plugins/cdn/utilities.php
