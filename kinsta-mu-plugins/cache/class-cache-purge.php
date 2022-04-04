@@ -92,7 +92,16 @@ class Cache_Purge {
 		add_action( 'wp_insert_comment', array( $this, 'comment_insert_actions' ), 10, 2 );
 		add_action( 'wp_insert_post', array( $this, 'post_updated' ), 10, 3 );
 		add_action( 'wp_trash_post', array( $this, 'post_trashed' ), 10 );
-		add_action( 'wp_update_nav_menu', array( $this, 'purge_complete_caches' ) );
+
+		// Purge all cache on the following hooks.
+		$hooks = array(
+			'wp_update_nav_menu', // Menu update.
+			'edited_term', // Term edit but not add.
+			'delete_term', // Term deletion.
+		);
+		foreach ( $hooks as $hook ) {
+			add_action( $hook, array( $this, 'purge_complete_caches' ) );
+		}
 	}
 
 	/**

@@ -1,7 +1,4 @@
-## Tue Feb  8 20:09:21 UTC 2022 ##
+## Mon Apr  4 16:14:29 UTC 2022 ##
 
 M  kinsta-mu-plugins.php
-A  kinsta-mu-plugins/cdn/cdn.php
-A  kinsta-mu-plugins/cdn/class-cdn-enabler.php
-A  kinsta-mu-plugins/cdn/class-cdn-rewriter.php
-A  kinsta-mu-plugins/cdn/utilities.php
+M  kinsta-mu-plugins/cache/class-cache-purge.php
