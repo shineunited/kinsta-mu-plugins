@@ -207,7 +207,7 @@ class Cache_Purge {
 	 * @return void
 	 */
 	public function comment_insert_actions( $comment_id, $comment ) {
-		if ( 1 === $comment->comment_approved ) {
+		if ( 1 === (int) $comment->comment_approved ) {
 			$this->initiate_purge( $comment->comment_post_ID, 'comment' );
 		}
 	}
@@ -220,7 +220,7 @@ class Cache_Purge {
 	 * @return void
 	 */
 	public function comment_edit_actions( $comment_id, $comment ) {
-		if ( 1 === $comment->comment_approved ) {
+		if ( 1 === (int) $comment->comment_approved ) {
 			$this->initiate_purge( $comment->comment_post_ID, 'comment' );
 		}
 	}
