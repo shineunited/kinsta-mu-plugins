@@ -1,4 +1,7 @@
-## Mon Apr 18 20:11:32 UTC 2022 ##
+## Tue May 31 00:56:57 UTC 2022 ##
 
 M  kinsta-mu-plugins.php
+M  kinsta-mu-plugins/cache/class-cache-admin.php
 M  kinsta-mu-plugins/cache/class-cache-purge.php
+A  kinsta-mu-plugins/compat/class-wp-kinsta.php
+M  kinsta-mu-plugins/compat/compat.php
