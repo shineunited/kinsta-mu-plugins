@@ -1,53 +1,14 @@
-## Thu Dec  8 16:13:16 UTC 2022 ##
+## Mon Oct  9 16:11:41 UTC 2023 ##
 
 M  kinsta-mu-plugins.php
-A  kinsta-mu-plugins/admin/assets/css/common.css
-R  kinsta-mu-plugins/shared/images/arrow-down.svg -> kinsta-mu-plugins/admin/assets/images/arrow-down.svg
-R  kinsta-mu-plugins/shared/images/icon-support.svg -> kinsta-mu-plugins/admin/assets/images/icon-support.svg
-R  kinsta-mu-plugins/shared/images/icon.svg -> kinsta-mu-plugins/admin/assets/images/icon.svg
-R  kinsta-mu-plugins/shared/images/info.svg -> kinsta-mu-plugins/admin/assets/images/info.svg
-R  kinsta-mu-plugins/shared/images/logo-dark.svg -> kinsta-mu-plugins/admin/assets/images/logo-dark.svg
-R  kinsta-mu-plugins/shared/images/menu-icon.svg -> kinsta-mu-plugins/admin/assets/images/menu-icon.svg
-R  kinsta-mu-plugins/shared/images/warning.svg -> kinsta-mu-plugins/admin/assets/images/warning.svg
-A  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-es_ES.mo
-A  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-es_ES.po
-R  kinsta-mu-plugins/shared/translations/kinsta-mu-plugins.pot -> kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins.pot
-A  kinsta-mu-plugins/admin/class-kmp-admin.php
-A  kinsta-mu-plugins/admin/pages/cache.php
-A  kinsta-mu-plugins/admin/pages/cdn.php
-A  kinsta-mu-plugins/admin/pages/partials/sidebar-support.php
-A  kinsta-mu-plugins/admin/pages/settings.php
-D  kinsta-mu-plugins/cache/cache.php
-D  kinsta-mu-plugins/cache/class-cache-admin.php
+M  kinsta-mu-plugins/admin/class-kmp-admin.php
+M  kinsta-mu-plugins/admin/pages/cache.php
+M  kinsta-mu-plugins/admin/pages/cdn.php
+M  kinsta-mu-plugins/admin/pages/settings.php
 M  kinsta-mu-plugins/cache/class-cache-purge.php
-M  kinsta-mu-plugins/cache/class-cache.php
-D  kinsta-mu-plugins/cache/pages/pages.php
-D  kinsta-mu-plugins/cache/pages/partials/settings-form.php
-D  kinsta-mu-plugins/cache/pages/partials/sidebar-purge-has-object-cache.php
-D  kinsta-mu-plugins/cache/pages/partials/sidebar-purge-no-object-cache.php
-D  kinsta-mu-plugins/cache/pages/partials/sidebar-support.php
-D  kinsta-mu-plugins/cdn/cdn.php
-D  kinsta-mu-plugins/cdn/class-cdn-enabler.php
-D  kinsta-mu-plugins/cdn/class-cdn-rewriter.php
-D  kinsta-mu-plugins/cdn/utilities.php
-A  kinsta-mu-plugins/class-kmp.php
-D  kinsta-mu-plugins/compat/assets/js/banned-plugins.js
-D  kinsta-mu-plugins/compat/class-kinsta-commands.php
-D  kinsta-mu-plugins/compat/class-security.php
-D  kinsta-mu-plugins/compat/class-wp-kinsta.php
-M  kinsta-mu-plugins/compat/compat.php
-A  kinsta-mu-plugins/compat/third-party/class-cdn-enabler.php
-M  kinsta-mu-plugins/compat/third-party/swift-performance.php
-A  kinsta-mu-plugins/compat/third-party/wp-rocket.php
-R  kinsta-mu-plugins/compat/class-banned-plugins.php -> kinsta-mu-plugins/security/class-banned-plugins.php
-D  kinsta-mu-plugins/shared/class-shared.php
-D  kinsta-mu-plugins/shared/scripts/kinsta-loader.js
-D  kinsta-mu-plugins/shared/scripts/tooltipster.bundle.min.js
-D  kinsta-mu-plugins/shared/styles/common.css
-D  kinsta-mu-plugins/shared/styles/tooltipster.bundle.css
-D  kinsta-mu-plugins/shared/translations/kinsta-mu-plugins-es_ES.mo
-D  kinsta-mu-plugins/shared/translations/kinsta-mu-plugins-es_ES.po
-R  kinsta-mu-plugins/compat/utilities.php -> kinsta-mu-plugins/utils/utils.php
-A  kinsta-mu-plugins/wp-cli/class-kmp-wpcli.php
-R  kinsta-mu-plugins/compat/wp-cli/class-cache-purge-command.php -> kinsta-mu-plugins/wp-cli/commands/class-cache-purge-command.php
-R  kinsta-mu-plugins/compat/wp-cli/class-plugin-list-command.php -> kinsta-mu-plugins/wp-cli/commands/class-plugin-list-command.php
+M  kinsta-mu-plugins/class-kmp.php
+M  kinsta-mu-plugins/compat/third-party/class-cdn-enabler.php
+M  kinsta-mu-plugins/compat/third-party/wp-rocket.php
+M  kinsta-mu-plugins/utils/utils.php
+M  kinsta-mu-plugins/wp-cli/commands/class-cache-purge-command.php
+M  kinsta-mu-plugins/wp-cli/commands/class-plugin-list-command.php
