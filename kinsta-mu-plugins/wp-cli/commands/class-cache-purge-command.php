@@ -54,8 +54,6 @@ class Cache_Purge_Command extends WP_CLI_Command {
 	 * : Clear the site and Edge cache (if enabled).
 	 * [--cdn]
 	 * : Clear the CDN cache (if enabled).
-	 * [--all]
-	 * : Clear all enabled caches (site, edge, CDN, object).
 	 *
 	 * @uses absint Convert a value to non-negative integer. Introduced since WordPress 2.5.0.
 	 * @uses is_wp_error Check whether variable is a WordPress Error. Introduced since WordPress 2.1.0
@@ -64,7 +62,7 @@ class Cache_Purge_Command extends WP_CLI_Command {
 	 * @uses wp_remote_retrieve_response_message Retrieve only the response message from the raw response. Introduced since WordPress 2.7.0
 	 *
 	 * @param array $args The command arguments.
-	 * @param array $assoc_args The command associative arguments e.g. --object, and --all.
+	 * @param array $assoc_args The command associative arguments e.g. --object, and --cdn.
 	 * @return void
 	 */
 	public function __invoke( $args, $assoc_args ) {
@@ -75,10 +73,6 @@ class Cache_Purge_Command extends WP_CLI_Command {
 			$this->purge_cdn_cache();
 		} else if ( isset( $assoc_args['site'] ) ) {
 			$this->purge_site_cache();
-		} else if ( isset( $assoc_args['all'] ) ) {
-			$this->purge_cdn_cache();
-			$this->purge_site_cache();
-			$this->purge_object_cache();
 		} else {
 			// Backwards compatibility.
 			$this->purge_site_cache();
