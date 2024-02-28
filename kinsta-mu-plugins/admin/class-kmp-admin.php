@@ -100,7 +100,7 @@ class KMP_Admin {
 			return;
 		}
 
-		wp_enqueue_style( 'kinsta-shared', $this->shared_resource_url( 'admin/assets/css/common.css' ), array(), '3.0.1' );
+		wp_enqueue_style( 'kinsta-shared', $this->shared_resource_url( 'admin/assets/css/common.css' ), array(), KINSTAMU_VERSION );
 	}
 
 	/**
