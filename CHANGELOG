@@ -1,13 +1,39 @@
-## Mon May 26 13:34:47 UTC 2025 ##
+## Tue Jul 29 12:30:39 UTC 2025 ##
 
 M  kinsta-mu-plugins.php
-M  kinsta-mu-plugins/admin/assets/css/common.css
-M  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-es_ES.mo
-M  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-es_ES.po
+A  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-da_DK.mo
+A  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-da_DK.po
+A  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-de_DE.mo
+A  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-de_DE.po
+A  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-fr_FR.mo
+A  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-fr_FR.po
+A  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-it_IT.mo
+A  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-it_IT.po
+A  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-ja.mo
+A  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-ja.po
+A  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-nl_NL.mo
+A  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-nl_NL.po
+A  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-pt_PT.mo
+A  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-pt_PT.po
+A  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-sv_SE.mo
+A  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins-sv_SE.po
 M  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins.pot
 M  kinsta-mu-plugins/admin/class-kmp-admin.php
 M  kinsta-mu-plugins/admin/pages/cache.php
-M  kinsta-mu-plugins/admin/pages/settings.php
+A  kinsta-mu-plugins/app/Cache/CustomPaths.php
+A  kinsta-mu-plugins/app/Compat/Elementor.php
+A  kinsta-mu-plugins/bootstrap.php
 M  kinsta-mu-plugins/cache/class-cache-purge.php
-M  kinsta-mu-plugins/compat/third-party/wp-rocket.php
+M  kinsta-mu-plugins/class-kmp.php
 M  kinsta-mu-plugins/security/class-banned-plugins.php
+A  kinsta-mu-plugins/vendor/autoload.php
+A  kinsta-mu-plugins/vendor/composer/ClassLoader.php
+A  kinsta-mu-plugins/vendor/composer/InstalledVersions.php
+A  kinsta-mu-plugins/vendor/composer/autoload_classmap.php
+A  kinsta-mu-plugins/vendor/composer/autoload_namespaces.php
+A  kinsta-mu-plugins/vendor/composer/autoload_psr4.php
+A  kinsta-mu-plugins/vendor/composer/autoload_real.php
+A  kinsta-mu-plugins/vendor/composer/autoload_static.php
+A  kinsta-mu-plugins/vendor/composer/installed.php
+M  kinsta-mu-plugins/wp-cli/class-kmp-wpcli.php
+M  kinsta-mu-plugins/wp-cli/commands/class-cache-purge-command.php
