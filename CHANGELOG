@@ -1,6 +1,6 @@
-## Wed Jul 30 12:30:36 UTC 2025 ##
+## Mon Aug  4 12:31:16 UTC 2025 ##
 
 M  kinsta-mu-plugins.php
 M  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins.pot
-M  kinsta-mu-plugins/app/Compat/Elementor.php
+M  kinsta-mu-plugins/app/Cache/CustomPaths.php
 M  kinsta-mu-plugins/vendor/composer/installed.php
