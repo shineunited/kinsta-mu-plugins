@@ -1,6 +1,32 @@
-## Mon Aug  4 12:31:16 UTC 2025 ##
+## Mon Dec  1 12:29:16 UTC 2025 ##
 
 M  kinsta-mu-plugins.php
 M  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins.pot
+A  kinsta-mu-plugins/app/Cache/Autopurge.php
+A  kinsta-mu-plugins/app/Cache/Autopurge/ACFController.php
+A  kinsta-mu-plugins/app/Cache/Autopurge/Controller.php
+A  kinsta-mu-plugins/app/Cache/Autopurge/WPOptionController.php
+A  kinsta-mu-plugins/app/Cache/Autopurge/WPPostController.php
+A  kinsta-mu-plugins/app/Cache/Autopurge/WPThemeController.php
+A  kinsta-mu-plugins/app/Cache/Autopurge/WPThemeHeaderController.php
+A  kinsta-mu-plugins/app/Cache/Autopurge/WPThemeWidgetController.php
+A  kinsta-mu-plugins/app/Cache/Autopurge/WooCommerceController.php
 M  kinsta-mu-plugins/app/Cache/CustomPaths.php
+A  kinsta-mu-plugins/app/Commands/Cache/AutopurgeCommand.php
+M  kinsta-mu-plugins/app/Compat/Elementor.php
+A  kinsta-mu-plugins/app/Contracts/Autopurgable.php
+A  kinsta-mu-plugins/app/Contracts/Clearable.php
+A  kinsta-mu-plugins/app/Contracts/Describable.php
+A  kinsta-mu-plugins/app/Contracts/Hookable.php
+A  kinsta-mu-plugins/app/Contracts/Nameable.php
+M  kinsta-mu-plugins/bootstrap.php
+M  kinsta-mu-plugins/cache/class-cache-purge.php
+M  kinsta-mu-plugins/cache/class-cache.php
+M  kinsta-mu-plugins/class-kmp.php
+A  kinsta-mu-plugins/inc/functions.php
+M  kinsta-mu-plugins/security/class-banned-plugins.php
+A  kinsta-mu-plugins/vendor/composer/autoload_files.php
+M  kinsta-mu-plugins/vendor/composer/autoload_real.php
+M  kinsta-mu-plugins/vendor/composer/autoload_static.php
 M  kinsta-mu-plugins/vendor/composer/installed.php
+M  kinsta-mu-plugins/wp-cli/class-kmp-wpcli.php
