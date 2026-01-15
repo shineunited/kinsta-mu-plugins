@@ -1,9 +1,9 @@
-## Mon Jan  5 12:32:13 UTC 2026 ##
+## Thu Jan 15 12:31:06 UTC 2026 ##
 
 M  kinsta-mu-plugins.php
 M  kinsta-mu-plugins/admin/assets/translations/kinsta-mu-plugins.pot
-M  kinsta-mu-plugins/app/Cache/Autopurge.php
-M  kinsta-mu-plugins/app/Cache/Autopurge/WPThemeController.php
-M  kinsta-mu-plugins/app/Commands/Cache/AutopurgeCommand.php
 M  kinsta-mu-plugins/cache/class-cache-purge.php
+M  kinsta-mu-plugins/security/class-banned-plugins.php
+M  kinsta-mu-plugins/vendor/composer/autoload_static.php
 M  kinsta-mu-plugins/vendor/composer/installed.php
+M  kinsta-mu-plugins/wp-cli/commands/class-cache-purge-command.php
